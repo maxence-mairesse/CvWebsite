@@ -1,0 +1,1125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+
+}
+
+main {
+    background-color: #ebebeb;
+
+}
+
+header {
+    height: 100vh;
+
+    background-image: url("./images/background3.jpg");
+    background-position: right;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.59);
+    height: 50px;
+    margin: 0;
+}
+
+header nav ul li a {
+    margin: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #b29a88;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header section {
+    background-color: rgba(0, 0, 0, 0.33);
+    width: 100%;
+    height: 100%
+
+}
+
+header section .title-name {
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    width: fit-content;
+    margin: auto;
+
+}
+
+h1 {
+    margin: 0.5px;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: start;
+    display: inline-block;
+    width: 100%;
+}
+
+header h2 {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 39px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: start;
+}
+
+.about {
+    padding-bottom: 3em;
+}
+
+.about h2 {
+    margin-top: 0;
+    font-size: 39px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: start;
+    display: inline-block;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+h3 span {
+    font-weight: bold;
+}
+
+header h3 {
+    padding-top: 80px;
+}
+
+.header-skills {
+    padding: 0;
+    position: relative;
+    top: 200px;
+    left: 0;
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 1.5s ease-in-out;
+}
+
+.header-skills-animation {
+    top: 100px;
+    transition: 1.5s ease-in-out;
+}
+.header-skills  a li {
+    color: white;
+    text-decoration: none;
+}
+.header-skills  a  {
+
+    text-decoration: none;
+}
+
+li {
+    text-align: center
+}
+
+.logo-skills {
+    transition: 0.5s;
+    font-size: 50px;
+}
+
+.about {
+    position: relative;
+    background-color: white
+}
+
+/*Block bio*/
+
+.biographie {
+    padding-top: 100px;
+    color: black;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+/*Block presentation*/
+.presentation {
+    text-align: justify;
+    margin-left: 3em;
+
+}
+
+.presentation p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.presentation h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*Photo*/
+.photos-profil {
+    position: relative;
+    margin: auto;
+    width: 300px;
+  height: 300px;
+
+}
+
+.photos-profil img {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.memoji {
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.img-overlay {
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.hobbies {
+    margin: auto;
+}
+
+.hobbies ul {
+    padding: 0;
+}
+
+.hobbies ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: 1em;
+}
+
+.hobbies ul li span {
+    font-weight: 500;
+}
+
+.button-contact-cv {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    min-width: 150px;
+    height: 61px;
+    margin: 0 100px;
+    font-size: 17px;
+    padding: 0 50px;
+
+}
+
+.button-contact {
+    background-color: #3ea8fd;
+    text-transform: uppercase;
+}
+
+.button-cv {
+    background-color: #2edc9c;
+    text-transform: uppercase;
+}
+
+.skills {
+    margin: 0;
+    position: relative;
+}
+
+article h2 {
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 2em;
+
+
+}
+
+.skills-grid .logo-skills {
+    font-size: 10em;
+
+}
+
+.skills-grid-front .logo-skills {
+    color: #9b59b6;
+}
+
+.skills-grid-cms .logo-skills {
+    color: #e67e23;
+    font-size: 10em;
+}
+
+
+.skills-grid-back .logo-skills {
+    color: #3498db;
+}
+
+.skills-grid-back .block-skill h3 {
+    color: #3498db;
+}
+
+.skills-grid-design .logo-skills {
+    color: #2fcc71;
+}
+
+.skills-grid-design .block-skill h3 {
+    color: #2fcc71;
+}
+
+.skills-grid-env .logo-skills {
+    color: #95a6a6;
+}
+
+.skills-grid-env .block-skill h3 {
+    color: #95a6a6;
+}
+
+
+.skills-grid-cms .block-skill h3 {
+    color: #e67e23;
+}
+
+.block-skill {
+    background-color: white;
+    padding: 1em;
+    border-radius: 25px;
+    width: 850px;
+
+}
+
+.block-skill h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #9b59b6;
+    text-align: start;
+    font-weight: 400;
+    margin: 0.5em;
+}
+
+.block-skill p {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0.5em;
+}
+
+
+.list-skill {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-skill ul {
+    margin: 1em;
+
+}
+
+.list-skill ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 350px;
+}
+
+
+.skills-grid-env .list-skill ul li {
+
+    justify-content: flex-start;
+
+}
+
+.skills-grid-front .fa-star {
+    color: #9b59b6;
+    font-size: 15px;
+
+}
+
+.skills-grid-back .fa-star {
+    color: #3ea8fd;
+    font-size: 15px;
+
+}
+
+.skills-grid-cms .fa-star {
+    color: #e67e23;
+    font-size: 15px;
+
+}
+
+.skills-grid-design .fa-star {
+    color: #2fcc71;
+    font-size: 15px;
+
+}
+
+/*CSS PARCOURS PRO*/
+.blue {
+
+
+    color: #3498db;
+}
+
+.green {
+
+
+    color: #2fcc71;
+}
+
+
+#parcours {
+    padding-top: 1em;
+    position: relative;
+    top: 100px;
+    background-color: white;
+}
+
+.parcours {
+
+    position: relative;
+    height: 2400px;
+
+}
+
+.timeline-cercle {
+    position: absolute;
+    top: 50%;
+    left: -110px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+}
+
+.timeline {
+
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    width: 5px;
+    height: 2200px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.description {
+    position: absolute;
+    border-radius: 25px;
+    background-color: #ebebeb;
+    width: 90%;
+    left: 100px;
+    top: 50px;
+    padding: 1em;
+}
+
+.block-exp{width:70%}
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    content: " ";
+    height: 0;
+    width: 0;
+    border: medium solid #EBEBEB;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #EBEBEB transparent transparent;
+
+}
+
+.description h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: start;
+    margin: 0 0.5em;
+
+}
+
+.description h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: start;
+    margin: 0.5em 1em;
+}
+
+.description ul {
+
+    list-style: disc;
+}
+
+.description ul li {
+
+
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: 300;
+    margin: 1em 1em;
+    text-align: start;
+    width: fit-content;
+}
+
+.date {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: -220px;
+    text-align: center;
+}
+
+.block-autoentreprise {
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.block-oclock {
+    position: absolute;
+    left: 300px;
+    top: 550px;
+}
+
+.block-formeld {
+    position: absolute;
+    left: 300px;
+    top: 950px;
+}
+.block-trigo-moniteur{
+    position: absolute;
+    left: 300px;
+    top: 1375px;
+}
+.block-trigo {
+    position: absolute;
+    left: 300px;
+    top: 1715px;
+}
+
+
+.block-bts {
+    position: absolute;
+    left: 300px;
+    top: 1980px;
+}
+
+.realisation {
+    position: relative;
+    background-color: #ebebeb;
+    padding: 1em;
+}
+
+.container {
+    width: 80%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    width: 550px;
+    height: 400px;
+    margin: 1em;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+.overlay-item {
+    width: 100%;
+    height: 100%;
+    margin-top: 60%;
+    background-color: white;
+    transition: 0.5s ease-in;
+    overflow: scroll;
+}
+
+.overlay-item h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    padding: 1em;
+}
+
+
+#nuances {
+    background-image: url("./images/nuances.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#pepite {
+    background-image: url("./images/pepite.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#yummy {
+    background-image: url("./images/yummy.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.tags ul {
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.tags ul li {
+    color: white;
+    background-color: #FFB8B8;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.overlay-item a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.overlay-item .btn {
+    margin: auto;
+    background-color: #2edc9c;
+    font-size: 15px;
+    padding: 12px 30px;
+    height: 45px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.34);
+    transition: 0.1s ease-in;
+}
+
+.description-website {
+    height: 150px;
+    margin: 2em;
+}
+
+.description-website ul {
+    list-style: disc;
+    margin-left: 2em;
+}
+
+.description-website ul li {
+    text-align: start;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    line-height: 30px;
+
+}
+
+.overlay-item .btn:hover {
+    box-shadow: 6px 3px 10px rgba(0, 0, 0, 0.42);
+
+}
+
+.overlay-item .btn i {
+    margin-left: 10px
+}
+
+
+#contact {
+    background-color: white;
+}
+
+#contact h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #292929;
+    padding-top: 1em;
+}
+
+#contact .jobs {
+    font-size: 18px;
+    padding: 2em;
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+.contact-box {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 60px;
+    margin: 2em;
+    align-items: center;
+}
+
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 350px;
+    height: 170px;
+    background-color: #efe5f3;
+    color: #9b59b6;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1em;
+}
+
+a .phone  {
+    font-weight: 700;
+
+    color: #9b59b6;
+
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 350px;
+    height: 170px;
+    background-color: #e0eff9;
+    color: #3498db;
+
+}
+
+a .mail{
+    padding:0.5em;
+    font-weight: 700;
+    color: #3498db;
+}
+
+.rdv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 350px;
+    height: 170px;
+    background-color: #e0f7e9;
+    color: #2fcc71;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ask {
+    width: 80%;
+    text-align: center;
+}
+
+.grey {
+    text-align: center;
+    color: #707070;
+    font-weight: 300;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 1em auto;
+
+}
+#contact-form div{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    font-size: 15px;
+    width: 80%;
+    margin: 1em auto;
+}
+input{
+    margin: 0.5em 0;
+    border: 0 solid;
+    padding: 1em;
+    border-bottom: 2px solid #3498db;
+    width: 100%;
+}
+textarea{
+    margin: 0.5em 0;
+    border: 1px solid #3498db;
+    padding: 1em;
+    display: block;
+    width: 100%;
+}
+#contact-form h4 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+#contact-form button{
+    background-color: #3498db;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    border-radius: 25px;
+    width: 25vw;
+    height: 25px;
+    margin: auto;
+    color: aliceblue;
+}
+label{
+    display: flex;
+
+}
+.require_Input{
+    color: red;
+    font-size: 7px;
+}
+@media (max-width: 1080px) {
+    nav {
+        font-size: 0.5em;
+
+    }
+
+
+    header section .title-name {
+        padding-top: 100px;
+        width: 80%;
+        margin: auto;
+    }
+
+    header h1 {
+        font-size: 1em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+
+    header h3 {
+        font-size: 1em;
+        padding-top: 40px;
+    }
+
+    .header-skills {
+        font-size: 15px;
+    }
+    .header-skills li a {
+        color: white;
+        text-decoration: none;
+    }
+    .logo-skills {
+        font-size: 20px;
+    }
+
+    .memoji {
+        display: none;
+    }
+
+    .photos-profil img {
+        position: relative;
+        width: 50vw;
+        opacity: 1;
+        margin: 0 auto;
+    }
+
+    .photo {
+
+        width: 50vw;
+        margin: 1em auto;
+    }
+
+    #photos-profil {
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+
+    }
+
+    .biographie {
+        flex-direction: column;
+
+    }
+    .presentation{
+        margin-left: 0;
+    }
+    .presentation h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .presentation div p {
+        font-size: 12px;
+        width: 100%;
+
+    }
+
+    .button-contact-cv {
+        flex-direction: column;
+        height: 200px;
+
+    }
+
+    .button-contact {
+        padding: 0;
+
+    }
+
+    .button-contact-cv .btn {
+        width: 200px;
+        margin: 0.5em;
+
+    }
+
+    .block-skill {
+        width: 90%;
+    }
+
+    .list-skill {
+        flex-direction: column;
+    }
+
+    .list-skill ul {
+        height: fit-content;
+    }
+
+    .list-skill ul li {
+        min-width: 100px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .skills-grid-env .list-skill ul li h4 {
+        min-width: 100px;
+        font-size: 10px;
+    }
+
+    .skills-grid-env .list-skill ul li div p {
+        font-size: 10px !important;
+    }
+
+    .parcours {
+        height: 1900px;
+    }
+
+    .timeline {
+        left: 150px;
+    }
+
+    .timeline-cercle {
+        display: none;
+    }
+
+    .date {
+        position: static;
+        width: 100%;
+        text-align: start;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    .date br {
+        display: none
+    }
+
+    .description {
+
+        position: static;
+
+
+        width: 80%;
+        margin: 1em auto;
+    }
+
+    .description h3 {
+        font-size: 15px;
+    }
+
+    .description h4 {
+        font-size: 13px;
+    }
+    .description ul li {
+        font-size: 10px;
+    }
+    .arrow {
+        display: none
+    }
+
+    .block-exp {
+        position: static;
+
+        width: 90%;
+        margin: auto;
+    }
+
+    .card{height: 200px}
+
+    .overlay-item{
+        height: 200px;
+        margin-top: 80%;
+
+        overflow: scroll;
+    }
+    .overlay-item h4{
+        margin-bottom: 0;
+    }
+    .overlay-item .tags ul li{
+        font-size: 7px;
+    }
+
+    .description-website{
+        margin-top: 0;
+
+    }
+    .description-website ul li {
+        font-size: 12px;
+    }
+    .contact-box{
+        margin: 0;
+        flex-direction: column;
+    }
+    #contact .jobs p{
+        font-size: 15px;
+    }
+
+    #contact .jobs b{
+        font-size: 10px;
+    }
+    .contact-box a div{
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        width: 300px;
+        margin-bottom: 1em;
+    }
+    .contact-box  div{
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        width: 300px;
+        margin-bottom: 1em;
+        padding:0.5em;
+    }
+
+    .contact-box * .fa{
+        font-size: 60px;
+    }
+    .overlay-item{
+        margin-top: 55%;
+    }
+
+    a .mail{
+        text-align:center;
+    }
+
+    #contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 1em auto;
+
+    }
+
+.container{justify-content:center;}
+
+    #contact-form button{
+        background-color: #3498db;
+        border: none;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+        border-radius: 25px;
+        width: 25vw;
+        height: 25px;
+        margin: auto;
+        color: aliceblue;
+    }
+
+}
+
+@media (min-width: 699px) and (max-width: 1024px) {
+    .container{
+        justify-content: center;
+    }
+    .card{
+        height: 350px;
+    }
+    .overlay-item{
+        height: 100%;
+        margin-top: 57%;
+    }
+
+}
+
